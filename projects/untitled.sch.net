@@ -1,0 +1,31 @@
+* SpiceNetList
+* 
+* Exported from untitled.sch at 5/19/2021 11:48 AM
+* 
+* EAGLE Version 9.5.0 Copyright (c) 1988-2019 Autodesk, Inc.
+* 
+.TEMP=25.000000
+* --------- .OPTIONS ---------
+* --------- .PARAMS ---------
+
+* --------- devices ---------
+V_V1 N_3 0 12V 
+R_R1 N_3 N_4 1k 
+R_R3 N_2 0 1k 
+R_R2 N_2 N_4 1k 
+
+* --------- simulation ---------
+.print DC V(N_2) V(N_3) V(N_4) Vp(N_4) V(0) I(V_V1)
+.print AC V(N_2) V(N_3) V(N_4) Vp(N_4) V(0) I(V_V1)
+.print TRAN V(N_2) V(N_3) V(N_4) Vp(N_4) V(0) I(V_V1)
+.END
+
+
+
+
+
+
+
+
+
+

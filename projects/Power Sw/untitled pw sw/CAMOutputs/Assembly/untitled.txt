@@ -1,0 +1,8 @@
+Partlist exported from G:/EAGLE/projects/Power Sw/untitled.sch at 10/29/2020 7:34 PM
+
+Qty Value            Device               Package          Parts              Description               POPULARITY PROD_ID     SPICEPREFIX VALUE       
+1   1k               R-US_0411/15         0411/15          R2                 RESISTOR, American symbol 2                      R                       
+1   24A/20V/50mΩ     MOSFET_PCH-NDP6020P  TO220V           Q1                 P-channel MOSFETs                    TRANS-13060             24A/20V/50mΩ
+1   33k              R-US_0411/15         0411/15          R1                 RESISTOR, American symbol 2                      R                       
+1   60V/32A/35mΩ     MOSFET-NCH-FQP30N06L TO220V           Q2                 N-channel MOSFETs                    TRANS-10060             60V/32A/35mΩ
+4   T-PLUG_CONNECTOR T-PLUG_CONNECTOR     T_PLUG_CONNECTOR ADPT, BATT, FS, PC                                                                          
